@@ -4,7 +4,9 @@ version = "0.1.0"
 description = "cbcu - is a console util for use chatbots (gpt, deepseek, llama, etc)"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.1.0",
+]
 
 [dependency-groups]
 dev = [
